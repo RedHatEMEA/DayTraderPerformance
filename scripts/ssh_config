@@ -1,0 +1,17 @@
+Host sshgw
+    Hostname 94.143.114.159
+    User root
+    IdentityFile ~/.ssh/jf-eno.pem
+    IdentitiesOnly yes
+
+Host eap
+    Hostname 46.231.128.188
+    User root
+    IdentityFile ~/.ssh/jf-eno.pem
+    IdentitiesOnly yes
+
+Host was85
+    Hostname 46.231.128.161
+    User root
+    IdentityFile ~/.ssh/jf-eno.pem
+    IdentitiesOnly yes
